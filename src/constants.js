@@ -1,0 +1,1 @@
+export const BaseUrl = "https://cicd-backend-sandy.vercel.app"
