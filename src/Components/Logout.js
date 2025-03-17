@@ -25,7 +25,7 @@ function Logout(props) {
           console.log(JSON.stringify(response.data));
           localStorage.removeItem("Token");
           window.location.href = "/login";
-
+            setMessage("Success Logout");
         })
         .catch((error) => {
           console.log(error);
